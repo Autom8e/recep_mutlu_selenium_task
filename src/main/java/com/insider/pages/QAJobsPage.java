@@ -96,7 +96,7 @@ public class QAJobsPage extends BasePage {
     public void clickViewRoleForFirstJob() {
         List<WebElement> jobs = getAllJobs();
         if (!jobs.isEmpty()) {
-            WebElement firstJob = jobs.getFirst();
+            WebElement firstJob = jobs.get(0);
             scrollToElement(firstJob);
             hover(firstJob);
 
