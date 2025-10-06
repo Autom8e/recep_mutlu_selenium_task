@@ -1,3 +1,5 @@
+[![Java Selenium CI/CD](https://github.com/Autom8e/recep_mutlu_selenium_task/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Autom8e/recep_mutlu_selenium_task/actions/workflows/ci-cd.yml)
+
 # Insider Test Automation Framework
 
 A comprehensive test automation framework for testing the Insider website using Java, Selenium WebDriver, and TestNG with Page Object Model (POM) design pattern.
