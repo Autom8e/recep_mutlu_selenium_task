@@ -52,7 +52,7 @@ public class BasePage {
     }
 
     protected void waitForPageLoad() {
-        wait.until(_ ->
+        wait.until(driver ->
                 ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete")
         );
     }
